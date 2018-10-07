@@ -15,6 +15,83 @@
 		822C8FC12154C177001BB40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C8FC02154C177001BB40F /* main.m */; };
 		822C8FCB2154C177001BB40F /* OBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C8FCA2154C177001BB40F /* OBoxTests.m */; };
 		822C8FD62154C177001BB40F /* OBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822C8FD52154C177001BB40F /* OBoxUITests.m */; };
+		825797152154C2A6006BF555 /* VRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257966B2154C2A5006BF555 /* VRError.m */; };
+		825797162154C2A6006BF555 /* VRContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257966D2154C2A5006BF555 /* VRContextManager.m */; };
+		825797172154C2A6006BF555 /* VRFouctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796712154C2A5006BF555 /* VRFouctions.m */; };
+		825797182154C2A6006BF555 /* VRNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796732154C2A5006BF555 /* VRNotifications.m */; };
+		825797192154C2A6006BF555 /* VRAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796762154C2A5006BF555 /* VRAssetsLibrary.m */; };
+		8257971A2154C2A6006BF555 /* GIVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796782154C2A5006BF555 /* GIVideoItem.m */; };
+		8257971B2154C2A6006BF555 /* GIAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796792154C2A5006BF555 /* GIAudioItem.m */; };
+		8257971C2154C2A6006BF555 /* GIVolumeAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257967A2154C2A5006BF555 /* GIVolumeAutomation.m */; };
+		8257971D2154C2A6006BF555 /* GIMediaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257967D2154C2A5006BF555 /* GIMediaItem.m */; };
+		8257971E2154C2A6006BF555 /* GITransitionInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257967E2154C2A5006BF555 /* GITransitionInstructions.m */; };
+		8257971F2154C2A6006BF555 /* GITimelineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257967F2154C2A5006BF555 /* GITimelineItem.m */; };
+		825797202154C2A6006BF555 /* GITitleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796802154C2A5006BF555 /* GITitleItem.m */; };
+		825797212154C2A6006BF555 /* GIVideoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796812154C2A5006BF555 /* GIVideoTransition.m */; };
+		825797222154C2A6006BF555 /* VRPhotoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796862154C2A5006BF555 /* VRPhotoFilter.m */; };
+		825797232154C2A6006BF555 /* GITimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796872154C2A5006BF555 /* GITimeline.m */; };
+		825797242154C2A6006BF555 /* GIMediaComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796902154C2A5006BF555 /* GIMediaComposition.m */; };
+		825797252154C2A6006BF555 /* GITimelineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796932154C2A5006BF555 /* GITimelineLayout.m */; };
+		825797262154C2A6006BF555 /* GICompositionBuilderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796952154C2A5006BF555 /* GICompositionBuilderFactory.m */; };
+		825797272154C2A6006BF555 /* SampleDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796992154C2A5006BF555 /* SampleDataProvider.m */; };
+		825797282154C2A6006BF555 /* GITimelineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8257969B2154C2A5006BF555 /* GITimelineDataSource.m */; };
+		825797292154C2A6006BF555 /* VRVideoCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796A02154C2A5006BF555 /* VRVideoCatcher.m */; };
+		8257972A2154C2A6006BF555 /* SampleDataFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796A42154C2A5006BF555 /* SampleDataFilter.m */; };
+		8257972B2154C2A6006BF555 /* GICompositionExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796A52154C2A5006BF555 /* GICompositionExporter.m */; };
+		8257972C2154C2A6006BF555 /* GIMediaCompositionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796A72154C2A5006BF555 /* GIMediaCompositionBuilder.m */; };
+		8257972D2154C2A6006BF555 /* VRVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796AA2154C2A5006BF555 /* VRVideoWriter.m */; };
+		8257972E2154C2A6006BF555 /* GIBasicCompositionBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796AC2154C2A5006BF555 /* GIBasicCompositionBuilder.m */; };
+		8257972F2154C2A6006BF555 /* GITimelineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796AD2154C2A5006BF555 /* GITimelineBuilder.m */; };
+		825797302154C2A6006BF555 /* VRCameraCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796AE2154C2A5006BF555 /* VRCameraCatcher.m */; };
+		825797312154C2A6006BF555 /* GITimelineItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796AF2154C2A5006BF555 /* GITimelineItemViewModel.m */; };
+		825797322154C2A6006BF555 /* GIBasicComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796B12154C2A5006BF555 /* GIBasicComposition.m */; };
+		825797332154C2A6006BF555 /* GIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796B52154C2A5006BF555 /* GIMainViewController.m */; };
+		825797342154C2A6006BF555 /* GITransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796B82154C2A5006BF555 /* GITransitionViewController.m */; };
+		825797352154C2A6006BF555 /* GISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796B92154C2A5006BF555 /* GISettingsViewController.m */; };
+		825797362154C2A6006BF555 /* GIVideoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796BA2154C2A5006BF555 /* GIVideoPickerViewController.m */; };
+		825797372154C2A6006BF555 /* MDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796BB2154C2A5006BF555 /* MDTabBarViewController.m */; };
+		825797382154C2A6006BF555 /* GIPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796BD2154C2A5006BF555 /* GIPlayerViewController.m */; };
+		825797392154C2A6006BF555 /* GITimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796BF2154C2A5006BF555 /* GITimelineViewController.m */; };
+		8257973A2154C2A6006BF555 /* GIAudioPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796C02154C2A5006BF555 /* GIAudioPickerViewController.m */; };
+		8257973B2154C2A6006BF555 /* GITransitionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796C62154C2A5006BF555 /* GITransitionCollectionViewCell.m */; };
+		8257973C2154C2A6006BF555 /* GIWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796C82154C2A5006BF555 /* GIWaveformView.m */; };
+		8257973D2154C2A6006BF555 /* GIVideoPickerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796CC2154C2A5006BF555 /* GIVideoPickerOverlayView.m */; };
+		8257973E2154C2A6006BF555 /* GIThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796CE2154C2A5006BF555 /* GIThumbnailView.m */; };
+		8257973F2154C2A6006BF555 /* GIVideoItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796CF2154C2A5006BF555 /* GIVideoItemCollectionViewCell.m */; };
+		825797402154C2A6006BF555 /* GIVideoPickerTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796D12154C2A5006BF555 /* GIVideoPickerTCell.m */; };
+		825797412154C2A6006BF555 /* GIPlaybackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796D32154C2A5006BF555 /* GIPlaybackView.m */; };
+		825797422154C2A6006BF555 /* GIPlayheadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796D42154C2A5006BF555 /* GIPlayheadView.m */; };
+		825797432154C2A6006BF555 /* GIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796D72154C2A5006BF555 /* GIProgressView.m */; };
+		825797442154C2A6006BF555 /* GITimelineItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796D92154C2A5006BF555 /* GITimelineItemCollectionViewCell.m */; };
+		825797452154C2A6006BF555 /* GITimelineItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796DA2154C2A5006BF555 /* GITimelineItemView.m */; };
+		825797462154C2A6006BF555 /* GIAudioItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796E12154C2A5006BF555 /* GIAudioItemCollectionViewCell.m */; };
+		825797472154C2A6006BF555 /* GIAudioSessionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796E22154C2A5006BF555 /* GIAudioSessionHeaderView.m */; };
+		825797482154C2A6006BF555 /* GIAudioPickerTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796E32154C2A5006BF555 /* GIAudioPickerTCell.m */; };
+		825797492154C2A6006BF555 /* GIVolumeAutomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796E52154C2A5006BF555 /* GIVolumeAutomationView.m */; };
+		8257974A2154C2A6006BF555 /* VRFlashControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796E92154C2A5006BF555 /* VRFlashControl.m */; };
+		8257974B2154C2A6006BF555 /* VRPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796EB2154C2A5006BF555 /* VRPreviewView.m */; };
+		8257974C2154C2A6006BF555 /* VROverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796ED2154C2A5006BF555 /* VROverlayView.m */; };
+		8257974D2154C2A6006BF555 /* VRVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796EE2154C2A5006BF555 /* VRVideoPreviewView.m */; };
+		8257974E2154C2A6006BF555 /* VRCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796EF2154C2A5006BF555 /* VRCameraView.m */; };
+		8257974F2154C2A6006BF555 /* VRCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796F02154C2A5006BF555 /* VRCaptureButton.m */; };
+		825797502154C2A6006BF555 /* VRFilterSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796F12154C2A5006BF555 /* VRFilterSelectorView.m */; };
+		825797512154C2A6006BF555 /* VRFilterPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796F42154C2A5006BF555 /* VRFilterPickerView.m */; };
+		825797522154C2A6006BF555 /* GITransitionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796FA2154C2A5006BF555 /* GITransitionButton.m */; };
+		825797532154C2A6006BF555 /* AVPlayerItem+GISync.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796FC2154C2A5006BF555 /* AVPlayerItem+GISync.m */; };
+		825797542154C2A6006BF555 /* NSString+VRRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796FD2154C2A5006BF555 /* NSString+VRRegex.m */; };
+		825797552154C2A6006BF555 /* NSFileManager+VRPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796FE2154C2A5006BF555 /* NSFileManager+VRPath.m */; };
+		825797562154C2A6006BF555 /* UITableViewCell+GIID.m in Sources */ = {isa = PBXBuildFile; fileRef = 825796FF2154C2A5006BF555 /* UITableViewCell+GIID.m */; };
+		825797572154C2A6006BF555 /* UIView+GICoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825797002154C2A5006BF555 /* UIView+GICoordinate.m */; };
+		825797582154C2A6006BF555 /* 01_nebula.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 825797082154C2A6006BF555 /* 01_nebula.mp4 */; };
+		825797592154C2A6006BF555 /* 03_nebula.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 825797092154C2A6006BF555 /* 03_nebula.mp4 */; };
+		8257975A2154C2A6006BF555 /* 04_quasar.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8257970A2154C2A6006BF555 /* 04_quasar.mp4 */; };
+		8257975B2154C2A6006BF555 /* 02_blackhole.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8257970B2154C2A6006BF555 /* 02_blackhole.mp4 */; };
+		8257975C2154C2A6006BF555 /* 05_blackhole.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8257970C2154C2A6006BF555 /* 05_blackhole.mp4 */; };
+		8257975D2154C2A6006BF555 /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8257970F2154C2A6006BF555 /* 02 Keep Going.m4a */; };
+		8257975E2154C2A6006BF555 /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 825797102154C2A6006BF555 /* 01 Star Gazing.m4a */; };
+		8257975F2154C2A6006BF555 /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 825797122154C2A6006BF555 /* John F. Kennedy.m4a */; };
+		825797602154C2A6006BF555 /* Carl Sagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 825797132154C2A6006BF555 /* Carl Sagan.m4a */; };
+		825797612154C2A6006BF555 /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 825797142154C2A6006BF555 /* Ronald Reagan.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +128,161 @@
 		822C8FD12154C177001BB40F /* OBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C8FD52154C177001BB40F /* OBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBoxUITests.m; sourceTree = "<group>"; };
 		822C8FD72154C177001BB40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822C8FE32154C18D001BB40F /* OBox-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OBox-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8257966B2154C2A5006BF555 /* VRError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRError.m; sourceTree = "<group>"; };
+		8257966C2154C2A5006BF555 /* VRNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRNotifications.h; sourceTree = "<group>"; };
+		8257966D2154C2A5006BF555 /* VRContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRContextManager.m; sourceTree = "<group>"; };
+		8257966E2154C2A5006BF555 /* VRFouctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRFouctions.h; sourceTree = "<group>"; };
+		8257966F2154C2A5006BF555 /* VRError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRError.h; sourceTree = "<group>"; };
+		825796702154C2A5006BF555 /* GIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIConstants.h; sourceTree = "<group>"; };
+		825796712154C2A5006BF555 /* VRFouctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRFouctions.m; sourceTree = "<group>"; };
+		825796722154C2A5006BF555 /* VRContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRContextManager.h; sourceTree = "<group>"; };
+		825796732154C2A5006BF555 /* VRNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRNotifications.m; sourceTree = "<group>"; };
+		825796742154C2A5006BF555 /* GIFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFunctions.h; sourceTree = "<group>"; };
+		825796762154C2A5006BF555 /* VRAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRAssetsLibrary.m; sourceTree = "<group>"; };
+		825796772154C2A5006BF555 /* GIVideoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoTransition.h; sourceTree = "<group>"; };
+		825796782154C2A5006BF555 /* GIVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoItem.m; sourceTree = "<group>"; };
+		825796792154C2A5006BF555 /* GIAudioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAudioItem.m; sourceTree = "<group>"; };
+		8257967A2154C2A5006BF555 /* GIVolumeAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVolumeAutomation.m; sourceTree = "<group>"; };
+		8257967B2154C2A5006BF555 /* GITimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimeline.h; sourceTree = "<group>"; };
+		8257967C2154C2A5006BF555 /* VRPhotoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPhotoFilter.h; sourceTree = "<group>"; };
+		8257967D2154C2A5006BF555 /* GIMediaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIMediaItem.m; sourceTree = "<group>"; };
+		8257967E2154C2A5006BF555 /* GITransitionInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITransitionInstructions.m; sourceTree = "<group>"; };
+		8257967F2154C2A5006BF555 /* GITimelineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineItem.m; sourceTree = "<group>"; };
+		825796802154C2A5006BF555 /* GITitleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITitleItem.m; sourceTree = "<group>"; };
+		825796812154C2A5006BF555 /* GIVideoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoTransition.m; sourceTree = "<group>"; };
+		825796822154C2A5006BF555 /* VRAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRAssetsLibrary.h; sourceTree = "<group>"; };
+		825796832154C2A5006BF555 /* GIVolumeAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVolumeAutomation.h; sourceTree = "<group>"; };
+		825796842154C2A5006BF555 /* GIAudioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAudioItem.h; sourceTree = "<group>"; };
+		825796852154C2A5006BF555 /* GIVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoItem.h; sourceTree = "<group>"; };
+		825796862154C2A5006BF555 /* VRPhotoFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPhotoFilter.m; sourceTree = "<group>"; };
+		825796872154C2A5006BF555 /* GITimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimeline.m; sourceTree = "<group>"; };
+		825796882154C2A5006BF555 /* GITitleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITitleItem.h; sourceTree = "<group>"; };
+		825796892154C2A5006BF555 /* GIModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIModels.h; sourceTree = "<group>"; };
+		8257968A2154C2A5006BF555 /* GITimelineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineItem.h; sourceTree = "<group>"; };
+		8257968B2154C2A5006BF555 /* GITransitionInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITransitionInstructions.h; sourceTree = "<group>"; };
+		8257968C2154C2A5006BF555 /* GIMediaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMediaItem.h; sourceTree = "<group>"; };
+		8257968E2154C2A5006BF555 /* GICompositionExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICompositionExporter.h; sourceTree = "<group>"; };
+		8257968F2154C2A5006BF555 /* SampleDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDataFilter.h; sourceTree = "<group>"; };
+		825796902154C2A5006BF555 /* GIMediaComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIMediaComposition.m; sourceTree = "<group>"; };
+		825796912154C2A5006BF555 /* VRVideoCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRVideoCatcher.h; sourceTree = "<group>"; };
+		825796922154C2A5006BF555 /* VRVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRVideoWriter.h; sourceTree = "<group>"; };
+		825796932154C2A5006BF555 /* GITimelineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineLayout.m; sourceTree = "<group>"; };
+		825796942154C2A5006BF555 /* GIMediaCompositionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMediaCompositionBuilder.h; sourceTree = "<group>"; };
+		825796952154C2A5006BF555 /* GICompositionBuilderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICompositionBuilderFactory.m; sourceTree = "<group>"; };
+		825796962154C2A5006BF555 /* GIBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBind.h; sourceTree = "<group>"; };
+		825796972154C2A5006BF555 /* UICollectionViewDelegateTimelineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewDelegateTimelineLayout.h; sourceTree = "<group>"; };
+		825796982154C2A5006BF555 /* VRCameraCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRCameraCaptureDelegate.h; sourceTree = "<group>"; };
+		825796992154C2A5006BF555 /* SampleDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDataProvider.m; sourceTree = "<group>"; };
+		8257969A2154C2A5006BF555 /* GIBasicComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBasicComposition.h; sourceTree = "<group>"; };
+		8257969B2154C2A5006BF555 /* GITimelineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineDataSource.m; sourceTree = "<group>"; };
+		8257969C2154C2A5006BF555 /* GITimelineItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineItemViewModel.h; sourceTree = "<group>"; };
+		8257969D2154C2A5006BF555 /* VRCameraCatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRCameraCatcher.h; sourceTree = "<group>"; };
+		8257969E2154C2A5006BF555 /* GITimelineBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineBuilder.h; sourceTree = "<group>"; };
+		8257969F2154C2A5006BF555 /* GIBasicCompositionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBasicCompositionBuilder.h; sourceTree = "<group>"; };
+		825796A02154C2A5006BF555 /* VRVideoCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRVideoCatcher.m; sourceTree = "<group>"; };
+		825796A12154C2A5006BF555 /* GIComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIComposition.h; sourceTree = "<group>"; };
+		825796A22154C2A5006BF555 /* GIMediaComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMediaComposition.h; sourceTree = "<group>"; };
+		825796A32154C2A5006BF555 /* GICompositionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICompositionBuilder.h; sourceTree = "<group>"; };
+		825796A42154C2A5006BF555 /* SampleDataFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDataFilter.m; sourceTree = "<group>"; };
+		825796A52154C2A5006BF555 /* GICompositionExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICompositionExporter.m; sourceTree = "<group>"; };
+		825796A62154C2A5006BF555 /* GICompositionBuilderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICompositionBuilderFactory.h; sourceTree = "<group>"; };
+		825796A72154C2A5006BF555 /* GIMediaCompositionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIMediaCompositionBuilder.m; sourceTree = "<group>"; };
+		825796A82154C2A5006BF555 /* GITimelineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineLayout.h; sourceTree = "<group>"; };
+		825796A92154C2A5006BF555 /* VRImageTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRImageTarget.h; sourceTree = "<group>"; };
+		825796AA2154C2A5006BF555 /* VRVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRVideoWriter.m; sourceTree = "<group>"; };
+		825796AB2154C2A5006BF555 /* GIPlaybackMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPlaybackMediator.h; sourceTree = "<group>"; };
+		825796AC2154C2A5006BF555 /* GIBasicCompositionBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIBasicCompositionBuilder.m; sourceTree = "<group>"; };
+		825796AD2154C2A5006BF555 /* GITimelineBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineBuilder.m; sourceTree = "<group>"; };
+		825796AE2154C2A5006BF555 /* VRCameraCatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRCameraCatcher.m; sourceTree = "<group>"; };
+		825796AF2154C2A5006BF555 /* GITimelineItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineItemViewModel.m; sourceTree = "<group>"; };
+		825796B02154C2A5006BF555 /* SampleDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDataProvider.h; sourceTree = "<group>"; };
+		825796B12154C2A5006BF555 /* GIBasicComposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIBasicComposition.m; sourceTree = "<group>"; };
+		825796B22154C2A5006BF555 /* GITimelineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineDataSource.h; sourceTree = "<group>"; };
+		825796B42154C2A5006BF555 /* GIPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPlayerViewController.h; sourceTree = "<group>"; };
+		825796B52154C2A5006BF555 /* GIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIMainViewController.m; sourceTree = "<group>"; };
+		825796B62154C2A5006BF555 /* GIAudioPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAudioPickerViewController.h; sourceTree = "<group>"; };
+		825796B72154C2A5006BF555 /* GITimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineViewController.h; sourceTree = "<group>"; };
+		825796B82154C2A5006BF555 /* GITransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITransitionViewController.m; sourceTree = "<group>"; };
+		825796B92154C2A5006BF555 /* GISettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISettingsViewController.m; sourceTree = "<group>"; };
+		825796BA2154C2A5006BF555 /* GIVideoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoPickerViewController.m; sourceTree = "<group>"; };
+		825796BB2154C2A5006BF555 /* MDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTabBarViewController.m; sourceTree = "<group>"; };
+		825796BC2154C2A5006BF555 /* GIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMainViewController.h; sourceTree = "<group>"; };
+		825796BD2154C2A5006BF555 /* GIPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIPlayerViewController.m; sourceTree = "<group>"; };
+		825796BE2154C2A5006BF555 /* GITransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITransitionViewController.h; sourceTree = "<group>"; };
+		825796BF2154C2A5006BF555 /* GITimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineViewController.m; sourceTree = "<group>"; };
+		825796C02154C2A5006BF555 /* GIAudioPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAudioPickerViewController.m; sourceTree = "<group>"; };
+		825796C12154C2A5006BF555 /* GISettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISettingsViewController.h; sourceTree = "<group>"; };
+		825796C22154C2A5006BF555 /* MDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTabBarViewController.h; sourceTree = "<group>"; };
+		825796C32154C2A5006BF555 /* GIVideoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoPickerViewController.h; sourceTree = "<group>"; };
+		825796C62154C2A5006BF555 /* GITransitionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITransitionCollectionViewCell.m; sourceTree = "<group>"; };
+		825796C72154C2A5006BF555 /* GITransitionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITransitionCollectionViewCell.h; sourceTree = "<group>"; };
+		825796C82154C2A5006BF555 /* GIWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIWaveformView.m; sourceTree = "<group>"; };
+		825796CA2154C2A5006BF555 /* GIVideoItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoItemCollectionViewCell.h; sourceTree = "<group>"; };
+		825796CB2154C2A5006BF555 /* GIThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIThumbnailView.h; sourceTree = "<group>"; };
+		825796CC2154C2A5006BF555 /* GIVideoPickerOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoPickerOverlayView.m; sourceTree = "<group>"; };
+		825796CD2154C2A5006BF555 /* GIVideoPickerTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoPickerTCell.h; sourceTree = "<group>"; };
+		825796CE2154C2A5006BF555 /* GIThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIThumbnailView.m; sourceTree = "<group>"; };
+		825796CF2154C2A5006BF555 /* GIVideoItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoItemCollectionViewCell.m; sourceTree = "<group>"; };
+		825796D02154C2A5006BF555 /* GIVideoPickerOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVideoPickerOverlayView.h; sourceTree = "<group>"; };
+		825796D12154C2A5006BF555 /* GIVideoPickerTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVideoPickerTCell.m; sourceTree = "<group>"; };
+		825796D32154C2A5006BF555 /* GIPlaybackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIPlaybackView.m; sourceTree = "<group>"; };
+		825796D42154C2A5006BF555 /* GIPlayheadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIPlayheadView.m; sourceTree = "<group>"; };
+		825796D52154C2A5006BF555 /* GIPlaybackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPlaybackView.h; sourceTree = "<group>"; };
+		825796D62154C2A5006BF555 /* GIPlayheadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPlayheadView.h; sourceTree = "<group>"; };
+		825796D72154C2A5006BF555 /* GIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIProgressView.m; sourceTree = "<group>"; };
+		825796D92154C2A5006BF555 /* GITimelineItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineItemCollectionViewCell.m; sourceTree = "<group>"; };
+		825796DA2154C2A5006BF555 /* GITimelineItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITimelineItemView.m; sourceTree = "<group>"; };
+		825796DB2154C2A5006BF555 /* GITimelineItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineItemView.h; sourceTree = "<group>"; };
+		825796DC2154C2A5006BF555 /* GITimelineItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITimelineItemCollectionViewCell.h; sourceTree = "<group>"; };
+		825796DE2154C2A5006BF555 /* GIAudioItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAudioItemCollectionViewCell.h; sourceTree = "<group>"; };
+		825796DF2154C2A5006BF555 /* GIAudioPickerTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAudioPickerTCell.h; sourceTree = "<group>"; };
+		825796E02154C2A5006BF555 /* GIAudioSessionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIAudioSessionHeaderView.h; sourceTree = "<group>"; };
+		825796E12154C2A5006BF555 /* GIAudioItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAudioItemCollectionViewCell.m; sourceTree = "<group>"; };
+		825796E22154C2A5006BF555 /* GIAudioSessionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAudioSessionHeaderView.m; sourceTree = "<group>"; };
+		825796E32154C2A5006BF555 /* GIAudioPickerTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIAudioPickerTCell.m; sourceTree = "<group>"; };
+		825796E42154C2A5006BF555 /* GITransitionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITransitionButton.h; sourceTree = "<group>"; };
+		825796E52154C2A5006BF555 /* GIVolumeAutomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIVolumeAutomationView.m; sourceTree = "<group>"; };
+		825796E62154C2A5006BF555 /* GIWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIWaveformView.h; sourceTree = "<group>"; };
+		825796E72154C2A5006BF555 /* GIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIProgressView.h; sourceTree = "<group>"; };
+		825796E92154C2A5006BF555 /* VRFlashControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRFlashControl.m; sourceTree = "<group>"; };
+		825796EA2154C2A5006BF555 /* VRFilterPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRFilterPickerView.h; sourceTree = "<group>"; };
+		825796EB2154C2A5006BF555 /* VRPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRPreviewView.m; sourceTree = "<group>"; };
+		825796EC2154C2A5006BF555 /* VRFilterSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRFilterSelectorView.h; sourceTree = "<group>"; };
+		825796ED2154C2A5006BF555 /* VROverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VROverlayView.m; sourceTree = "<group>"; };
+		825796EE2154C2A5006BF555 /* VRVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRVideoPreviewView.m; sourceTree = "<group>"; };
+		825796EF2154C2A5006BF555 /* VRCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRCameraView.m; sourceTree = "<group>"; };
+		825796F02154C2A5006BF555 /* VRCaptureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRCaptureButton.m; sourceTree = "<group>"; };
+		825796F12154C2A5006BF555 /* VRFilterSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRFilterSelectorView.m; sourceTree = "<group>"; };
+		825796F22154C2A5006BF555 /* VRPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRPreviewView.h; sourceTree = "<group>"; };
+		825796F32154C2A5006BF555 /* VRFlashControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRFlashControl.h; sourceTree = "<group>"; };
+		825796F42154C2A5006BF555 /* VRFilterPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRFilterPickerView.m; sourceTree = "<group>"; };
+		825796F52154C2A5006BF555 /* VRVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRVideoPreviewView.h; sourceTree = "<group>"; };
+		825796F62154C2A5006BF555 /* VROverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VROverlayView.h; sourceTree = "<group>"; };
+		825796F72154C2A5006BF555 /* VRCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRCameraView.h; sourceTree = "<group>"; };
+		825796F82154C2A5006BF555 /* VRCaptureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRCaptureButton.h; sourceTree = "<group>"; };
+		825796F92154C2A5006BF555 /* GIVolumeAutomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIVolumeAutomationView.h; sourceTree = "<group>"; };
+		825796FA2154C2A5006BF555 /* GITransitionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITransitionButton.m; sourceTree = "<group>"; };
+		825796FC2154C2A5006BF555 /* AVPlayerItem+GISync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+GISync.m"; sourceTree = "<group>"; };
+		825796FD2154C2A5006BF555 /* NSString+VRRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VRRegex.m"; sourceTree = "<group>"; };
+		825796FE2154C2A5006BF555 /* NSFileManager+VRPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+VRPath.m"; sourceTree = "<group>"; };
+		825796FF2154C2A5006BF555 /* UITableViewCell+GIID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+GIID.m"; sourceTree = "<group>"; };
+		825797002154C2A5006BF555 /* UIView+GICoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GICoordinate.m"; sourceTree = "<group>"; };
+		825797012154C2A5006BF555 /* NSString+VRRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VRRegex.h"; sourceTree = "<group>"; };
+		825797022154C2A5006BF555 /* AVPlayerItem+GISync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+GISync.h"; sourceTree = "<group>"; };
+		825797032154C2A5006BF555 /* UITableViewCell+GIID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+GIID.h"; sourceTree = "<group>"; };
+		825797042154C2A5006BF555 /* NSFileManager+VRPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+VRPath.h"; sourceTree = "<group>"; };
+		825797052154C2A5006BF555 /* UIView+GICoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GICoordinate.h"; sourceTree = "<group>"; };
+		825797082154C2A6006BF555 /* 01_nebula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01_nebula.mp4; sourceTree = "<group>"; };
+		825797092154C2A6006BF555 /* 03_nebula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03_nebula.mp4; sourceTree = "<group>"; };
+		8257970A2154C2A6006BF555 /* 04_quasar.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04_quasar.mp4; sourceTree = "<group>"; };
+		8257970B2154C2A6006BF555 /* 02_blackhole.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02_blackhole.mp4; sourceTree = "<group>"; };
+		8257970C2154C2A6006BF555 /* 05_blackhole.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 05_blackhole.mp4; sourceTree = "<group>"; };
+		8257970F2154C2A6006BF555 /* 02 Keep Going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 Keep Going.m4a"; sourceTree = "<group>"; };
+		825797102154C2A6006BF555 /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
+		825797122154C2A6006BF555 /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "John F. Kennedy.m4a"; sourceTree = "<group>"; };
+		825797132154C2A6006BF555 /* Carl Sagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Carl Sagan.m4a"; sourceTree = "<group>"; };
+		825797142154C2A6006BF555 /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ronald Reagan.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +335,8 @@
 			children = (
 				822C8FB12154C177001BB40F /* AppDelegate.h */,
 				822C8FB22154C177001BB40F /* AppDelegate.m */,
+				825796692154C2A5006BF555 /* Classes */,
+				825797062154C2A6006BF555 /* Resources */,
 				822C8FB42154C177001BB40F /* ViewController.h */,
 				822C8FB52154C177001BB40F /* ViewController.m */,
 				822C8FB72154C177001BB40F /* Main.storyboard */,
@@ -110,6 +344,7 @@
 				822C8FBC2154C177001BB40F /* LaunchScreen.storyboard */,
 				822C8FBF2154C177001BB40F /* Info.plist */,
 				822C8FC02154C177001BB40F /* main.m */,
+				822C8FE32154C18D001BB40F /* OBox-PrefixHeader.pch */,
 			);
 			path = OBox;
 			sourceTree = "<group>";
@@ -130,6 +365,302 @@
 				822C8FD72154C177001BB40F /* Info.plist */,
 			);
 			path = OBoxUITests;
+			sourceTree = "<group>";
+		};
+		825796692154C2A5006BF555 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8257966A2154C2A5006BF555 /* Commons */,
+				825796752154C2A5006BF555 /* Models */,
+				8257968D2154C2A5006BF555 /* Littery */,
+				825796B32154C2A5006BF555 /* Controllers */,
+				825796C42154C2A5006BF555 /* Views */,
+				825796FB2154C2A5006BF555 /* Categories */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8257966A2154C2A5006BF555 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				825796702154C2A5006BF555 /* GIConstants.h */,
+				825796742154C2A5006BF555 /* GIFunctions.h */,
+				825796722154C2A5006BF555 /* VRContextManager.h */,
+				8257966D2154C2A5006BF555 /* VRContextManager.m */,
+				8257966F2154C2A5006BF555 /* VRError.h */,
+				8257966B2154C2A5006BF555 /* VRError.m */,
+				8257966E2154C2A5006BF555 /* VRFouctions.h */,
+				825796712154C2A5006BF555 /* VRFouctions.m */,
+				8257966C2154C2A5006BF555 /* VRNotifications.h */,
+				825796732154C2A5006BF555 /* VRNotifications.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		825796752154C2A5006BF555 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				825796842154C2A5006BF555 /* GIAudioItem.h */,
+				825796792154C2A5006BF555 /* GIAudioItem.m */,
+				8257968C2154C2A5006BF555 /* GIMediaItem.h */,
+				8257967D2154C2A5006BF555 /* GIMediaItem.m */,
+				825796892154C2A5006BF555 /* GIModels.h */,
+				8257967B2154C2A5006BF555 /* GITimeline.h */,
+				825796872154C2A5006BF555 /* GITimeline.m */,
+				8257968A2154C2A5006BF555 /* GITimelineItem.h */,
+				8257967F2154C2A5006BF555 /* GITimelineItem.m */,
+				825796882154C2A5006BF555 /* GITitleItem.h */,
+				825796802154C2A5006BF555 /* GITitleItem.m */,
+				8257968B2154C2A5006BF555 /* GITransitionInstructions.h */,
+				8257967E2154C2A5006BF555 /* GITransitionInstructions.m */,
+				825796852154C2A5006BF555 /* GIVideoItem.h */,
+				825796782154C2A5006BF555 /* GIVideoItem.m */,
+				825796772154C2A5006BF555 /* GIVideoTransition.h */,
+				825796812154C2A5006BF555 /* GIVideoTransition.m */,
+				825796832154C2A5006BF555 /* GIVolumeAutomation.h */,
+				8257967A2154C2A5006BF555 /* GIVolumeAutomation.m */,
+				825796822154C2A5006BF555 /* VRAssetsLibrary.h */,
+				825796762154C2A5006BF555 /* VRAssetsLibrary.m */,
+				8257967C2154C2A5006BF555 /* VRPhotoFilter.h */,
+				825796862154C2A5006BF555 /* VRPhotoFilter.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8257968D2154C2A5006BF555 /* Littery */ = {
+			isa = PBXGroup;
+			children = (
+				8257969A2154C2A5006BF555 /* GIBasicComposition.h */,
+				825796B12154C2A5006BF555 /* GIBasicComposition.m */,
+				8257969F2154C2A5006BF555 /* GIBasicCompositionBuilder.h */,
+				825796AC2154C2A5006BF555 /* GIBasicCompositionBuilder.m */,
+				825796962154C2A5006BF555 /* GIBind.h */,
+				825796A12154C2A5006BF555 /* GIComposition.h */,
+				825796A32154C2A5006BF555 /* GICompositionBuilder.h */,
+				825796A62154C2A5006BF555 /* GICompositionBuilderFactory.h */,
+				825796952154C2A5006BF555 /* GICompositionBuilderFactory.m */,
+				8257968E2154C2A5006BF555 /* GICompositionExporter.h */,
+				825796A52154C2A5006BF555 /* GICompositionExporter.m */,
+				825796A22154C2A5006BF555 /* GIMediaComposition.h */,
+				825796902154C2A5006BF555 /* GIMediaComposition.m */,
+				825796942154C2A5006BF555 /* GIMediaCompositionBuilder.h */,
+				825796A72154C2A5006BF555 /* GIMediaCompositionBuilder.m */,
+				825796AB2154C2A5006BF555 /* GIPlaybackMediator.h */,
+				8257969E2154C2A5006BF555 /* GITimelineBuilder.h */,
+				825796AD2154C2A5006BF555 /* GITimelineBuilder.m */,
+				825796B22154C2A5006BF555 /* GITimelineDataSource.h */,
+				8257969B2154C2A5006BF555 /* GITimelineDataSource.m */,
+				8257969C2154C2A5006BF555 /* GITimelineItemViewModel.h */,
+				825796AF2154C2A5006BF555 /* GITimelineItemViewModel.m */,
+				825796A82154C2A5006BF555 /* GITimelineLayout.h */,
+				825796932154C2A5006BF555 /* GITimelineLayout.m */,
+				825796972154C2A5006BF555 /* UICollectionViewDelegateTimelineLayout.h */,
+				8257968F2154C2A5006BF555 /* SampleDataFilter.h */,
+				825796A42154C2A5006BF555 /* SampleDataFilter.m */,
+				825796B02154C2A5006BF555 /* SampleDataProvider.h */,
+				825796992154C2A5006BF555 /* SampleDataProvider.m */,
+				825796982154C2A5006BF555 /* VRCameraCaptureDelegate.h */,
+				8257969D2154C2A5006BF555 /* VRCameraCatcher.h */,
+				825796AE2154C2A5006BF555 /* VRCameraCatcher.m */,
+				825796A92154C2A5006BF555 /* VRImageTarget.h */,
+				825796912154C2A5006BF555 /* VRVideoCatcher.h */,
+				825796A02154C2A5006BF555 /* VRVideoCatcher.m */,
+				825796922154C2A5006BF555 /* VRVideoWriter.h */,
+				825796AA2154C2A5006BF555 /* VRVideoWriter.m */,
+			);
+			path = Littery;
+			sourceTree = "<group>";
+		};
+		825796B32154C2A5006BF555 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				825796B62154C2A5006BF555 /* GIAudioPickerViewController.h */,
+				825796C02154C2A5006BF555 /* GIAudioPickerViewController.m */,
+				825796BC2154C2A5006BF555 /* GIMainViewController.h */,
+				825796B52154C2A5006BF555 /* GIMainViewController.m */,
+				825796B42154C2A5006BF555 /* GIPlayerViewController.h */,
+				825796BD2154C2A5006BF555 /* GIPlayerViewController.m */,
+				825796C12154C2A5006BF555 /* GISettingsViewController.h */,
+				825796B92154C2A5006BF555 /* GISettingsViewController.m */,
+				825796B72154C2A5006BF555 /* GITimelineViewController.h */,
+				825796BF2154C2A5006BF555 /* GITimelineViewController.m */,
+				825796BE2154C2A5006BF555 /* GITransitionViewController.h */,
+				825796B82154C2A5006BF555 /* GITransitionViewController.m */,
+				825796C32154C2A5006BF555 /* GIVideoPickerViewController.h */,
+				825796BA2154C2A5006BF555 /* GIVideoPickerViewController.m */,
+				825796C22154C2A5006BF555 /* MDTabBarViewController.h */,
+				825796BB2154C2A5006BF555 /* MDTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		825796C42154C2A5006BF555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				825796DD2154C2A5006BF555 /* Audio picker view */,
+				825796E82154C2A5006BF555 /* Camera view */,
+				825796E72154C2A5006BF555 /* GIProgressView.h */,
+				825796D72154C2A5006BF555 /* GIProgressView.m */,
+				825796E42154C2A5006BF555 /* GITransitionButton.h */,
+				825796FA2154C2A5006BF555 /* GITransitionButton.m */,
+				825796F92154C2A5006BF555 /* GIVolumeAutomationView.h */,
+				825796E52154C2A5006BF555 /* GIVolumeAutomationView.m */,
+				825796E62154C2A5006BF555 /* GIWaveformView.h */,
+				825796C82154C2A5006BF555 /* GIWaveformView.m */,
+				825796D22154C2A5006BF555 /* Play view */,
+				825796D82154C2A5006BF555 /* Timeline view */,
+				825796C52154C2A5006BF555 /* Transposition view */,
+				825796C92154C2A5006BF555 /* Video picker view */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		825796C52154C2A5006BF555 /* Transposition view */ = {
+			isa = PBXGroup;
+			children = (
+				825796C72154C2A5006BF555 /* GITransitionCollectionViewCell.h */,
+				825796C62154C2A5006BF555 /* GITransitionCollectionViewCell.m */,
+			);
+			path = "Transposition view";
+			sourceTree = "<group>";
+		};
+		825796C92154C2A5006BF555 /* Video picker view */ = {
+			isa = PBXGroup;
+			children = (
+				825796CB2154C2A5006BF555 /* GIThumbnailView.h */,
+				825796CE2154C2A5006BF555 /* GIThumbnailView.m */,
+				825796CA2154C2A5006BF555 /* GIVideoItemCollectionViewCell.h */,
+				825796CF2154C2A5006BF555 /* GIVideoItemCollectionViewCell.m */,
+				825796D02154C2A5006BF555 /* GIVideoPickerOverlayView.h */,
+				825796CC2154C2A5006BF555 /* GIVideoPickerOverlayView.m */,
+				825796CD2154C2A5006BF555 /* GIVideoPickerTCell.h */,
+				825796D12154C2A5006BF555 /* GIVideoPickerTCell.m */,
+			);
+			path = "Video picker view";
+			sourceTree = "<group>";
+		};
+		825796D22154C2A5006BF555 /* Play view */ = {
+			isa = PBXGroup;
+			children = (
+				825796D52154C2A5006BF555 /* GIPlaybackView.h */,
+				825796D32154C2A5006BF555 /* GIPlaybackView.m */,
+				825796D62154C2A5006BF555 /* GIPlayheadView.h */,
+				825796D42154C2A5006BF555 /* GIPlayheadView.m */,
+			);
+			path = "Play view";
+			sourceTree = "<group>";
+		};
+		825796D82154C2A5006BF555 /* Timeline view */ = {
+			isa = PBXGroup;
+			children = (
+				825796DC2154C2A5006BF555 /* GITimelineItemCollectionViewCell.h */,
+				825796D92154C2A5006BF555 /* GITimelineItemCollectionViewCell.m */,
+				825796DB2154C2A5006BF555 /* GITimelineItemView.h */,
+				825796DA2154C2A5006BF555 /* GITimelineItemView.m */,
+			);
+			path = "Timeline view";
+			sourceTree = "<group>";
+		};
+		825796DD2154C2A5006BF555 /* Audio picker view */ = {
+			isa = PBXGroup;
+			children = (
+				825796DE2154C2A5006BF555 /* GIAudioItemCollectionViewCell.h */,
+				825796E12154C2A5006BF555 /* GIAudioItemCollectionViewCell.m */,
+				825796DF2154C2A5006BF555 /* GIAudioPickerTCell.h */,
+				825796E32154C2A5006BF555 /* GIAudioPickerTCell.m */,
+				825796E02154C2A5006BF555 /* GIAudioSessionHeaderView.h */,
+				825796E22154C2A5006BF555 /* GIAudioSessionHeaderView.m */,
+			);
+			path = "Audio picker view";
+			sourceTree = "<group>";
+		};
+		825796E82154C2A5006BF555 /* Camera view */ = {
+			isa = PBXGroup;
+			children = (
+				825796F72154C2A5006BF555 /* VRCameraView.h */,
+				825796EF2154C2A5006BF555 /* VRCameraView.m */,
+				825796F82154C2A5006BF555 /* VRCaptureButton.h */,
+				825796F02154C2A5006BF555 /* VRCaptureButton.m */,
+				825796EA2154C2A5006BF555 /* VRFilterPickerView.h */,
+				825796F42154C2A5006BF555 /* VRFilterPickerView.m */,
+				825796F12154C2A5006BF555 /* VRFilterSelectorView.m */,
+				825796EC2154C2A5006BF555 /* VRFilterSelectorView.h */,
+				825796F32154C2A5006BF555 /* VRFlashControl.h */,
+				825796E92154C2A5006BF555 /* VRFlashControl.m */,
+				825796F62154C2A5006BF555 /* VROverlayView.h */,
+				825796ED2154C2A5006BF555 /* VROverlayView.m */,
+				825796F22154C2A5006BF555 /* VRPreviewView.h */,
+				825796EB2154C2A5006BF555 /* VRPreviewView.m */,
+				825796F52154C2A5006BF555 /* VRVideoPreviewView.h */,
+				825796EE2154C2A5006BF555 /* VRVideoPreviewView.m */,
+			);
+			path = "Camera view";
+			sourceTree = "<group>";
+		};
+		825796FB2154C2A5006BF555 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				825797022154C2A5006BF555 /* AVPlayerItem+GISync.h */,
+				825796FC2154C2A5006BF555 /* AVPlayerItem+GISync.m */,
+				825797042154C2A5006BF555 /* NSFileManager+VRPath.h */,
+				825796FE2154C2A5006BF555 /* NSFileManager+VRPath.m */,
+				825797012154C2A5006BF555 /* NSString+VRRegex.h */,
+				825796FD2154C2A5006BF555 /* NSString+VRRegex.m */,
+				825797032154C2A5006BF555 /* UITableViewCell+GIID.h */,
+				825796FF2154C2A5006BF555 /* UITableViewCell+GIID.m */,
+				825797052154C2A5006BF555 /* UIView+GICoordinate.h */,
+				825797002154C2A5006BF555 /* UIView+GICoordinate.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		825797062154C2A6006BF555 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				825797072154C2A6006BF555 /* Video */,
+				8257970D2154C2A6006BF555 /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		825797072154C2A6006BF555 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				825797082154C2A6006BF555 /* 01_nebula.mp4 */,
+				825797092154C2A6006BF555 /* 03_nebula.mp4 */,
+				8257970A2154C2A6006BF555 /* 04_quasar.mp4 */,
+				8257970B2154C2A6006BF555 /* 02_blackhole.mp4 */,
+				8257970C2154C2A6006BF555 /* 05_blackhole.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8257970D2154C2A6006BF555 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8257970E2154C2A6006BF555 /* Music */,
+				825797112154C2A6006BF555 /* VoiceOvers */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8257970E2154C2A6006BF555 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8257970F2154C2A6006BF555 /* 02 Keep Going.m4a */,
+				825797102154C2A6006BF555 /* 01 Star Gazing.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		825797112154C2A6006BF555 /* VoiceOvers */ = {
+			isa = PBXGroup;
+			children = (
+				825797122154C2A6006BF555 /* John F. Kennedy.m4a */,
+				825797132154C2A6006BF555 /* Carl Sagan.m4a */,
+				825797142154C2A6006BF555 /* Ronald Reagan.m4a */,
+			);
+			path = VoiceOvers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +766,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8257975F2154C2A6006BF555 /* John F. Kennedy.m4a in Resources */,
+				8257975C2154C2A6006BF555 /* 05_blackhole.mp4 in Resources */,
+				8257975E2154C2A6006BF555 /* 01 Star Gazing.m4a in Resources */,
 				822C8FBE2154C177001BB40F /* LaunchScreen.storyboard in Resources */,
+				8257975B2154C2A6006BF555 /* 02_blackhole.mp4 in Resources */,
+				8257975D2154C2A6006BF555 /* 02 Keep Going.m4a in Resources */,
+				825797592154C2A6006BF555 /* 03_nebula.mp4 in Resources */,
 				822C8FBB2154C177001BB40F /* Assets.xcassets in Resources */,
 				822C8FB92154C177001BB40F /* Main.storyboard in Resources */,
+				8257975A2154C2A6006BF555 /* 04_quasar.mp4 in Resources */,
+				825797602154C2A6006BF555 /* Carl Sagan.m4a in Resources */,
+				825797582154C2A6006BF555 /* 01_nebula.mp4 in Resources */,
+				825797612154C2A6006BF555 /* Ronald Reagan.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +803,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825797272154C2A6006BF555 /* SampleDataProvider.m in Sources */,
+				825797212154C2A6006BF555 /* GIVideoTransition.m in Sources */,
+				8257972C2154C2A6006BF555 /* GIMediaCompositionBuilder.m in Sources */,
+				8257971C2154C2A6006BF555 /* GIVolumeAutomation.m in Sources */,
+				825797362154C2A6006BF555 /* GIVideoPickerViewController.m in Sources */,
+				825797562154C2A6006BF555 /* UITableViewCell+GIID.m in Sources */,
+				825797472154C2A6006BF555 /* GIAudioSessionHeaderView.m in Sources */,
+				8257972F2154C2A6006BF555 /* GITimelineBuilder.m in Sources */,
 				822C8FB62154C177001BB40F /* ViewController.m in Sources */,
+				8257973C2154C2A6006BF555 /* GIWaveformView.m in Sources */,
+				825797242154C2A6006BF555 /* GIMediaComposition.m in Sources */,
+				8257973F2154C2A6006BF555 /* GIVideoItemCollectionViewCell.m in Sources */,
+				825797462154C2A6006BF555 /* GIAudioItemCollectionViewCell.m in Sources */,
+				8257971B2154C2A6006BF555 /* GIAudioItem.m in Sources */,
+				825797322154C2A6006BF555 /* GIBasicComposition.m in Sources */,
+				8257971F2154C2A6006BF555 /* GITimelineItem.m in Sources */,
+				825797482154C2A6006BF555 /* GIAudioPickerTCell.m in Sources */,
+				825797422154C2A6006BF555 /* GIPlayheadView.m in Sources */,
+				825797392154C2A6006BF555 /* GITimelineViewController.m in Sources */,
 				822C8FC12154C177001BB40F /* main.m in Sources */,
+				825797442154C2A6006BF555 /* GITimelineItemCollectionViewCell.m in Sources */,
+				825797382154C2A6006BF555 /* GIPlayerViewController.m in Sources */,
+				8257974A2154C2A6006BF555 /* VRFlashControl.m in Sources */,
+				825797152154C2A6006BF555 /* VRError.m in Sources */,
+				825797572154C2A6006BF555 /* UIView+GICoordinate.m in Sources */,
+				825797202154C2A6006BF555 /* GITitleItem.m in Sources */,
+				825797222154C2A6006BF555 /* VRPhotoFilter.m in Sources */,
+				825797252154C2A6006BF555 /* GITimelineLayout.m in Sources */,
+				825797162154C2A6006BF555 /* VRContextManager.m in Sources */,
+				8257974D2154C2A6006BF555 /* VRVideoPreviewView.m in Sources */,
+				825797192154C2A6006BF555 /* VRAssetsLibrary.m in Sources */,
+				825797542154C2A6006BF555 /* NSString+VRRegex.m in Sources */,
+				8257971D2154C2A6006BF555 /* GIMediaItem.m in Sources */,
+				8257971A2154C2A6006BF555 /* GIVideoItem.m in Sources */,
+				8257971E2154C2A6006BF555 /* GITransitionInstructions.m in Sources */,
+				8257972D2154C2A6006BF555 /* VRVideoWriter.m in Sources */,
+				825797492154C2A6006BF555 /* GIVolumeAutomationView.m in Sources */,
+				825797452154C2A6006BF555 /* GITimelineItemView.m in Sources */,
+				825797502154C2A6006BF555 /* VRFilterSelectorView.m in Sources */,
+				825797262154C2A6006BF555 /* GICompositionBuilderFactory.m in Sources */,
+				825797182154C2A6006BF555 /* VRNotifications.m in Sources */,
+				825797402154C2A6006BF555 /* GIVideoPickerTCell.m in Sources */,
+				825797412154C2A6006BF555 /* GIPlaybackView.m in Sources */,
+				825797332154C2A6006BF555 /* GIMainViewController.m in Sources */,
+				825797312154C2A6006BF555 /* GITimelineItemViewModel.m in Sources */,
+				8257972B2154C2A6006BF555 /* GICompositionExporter.m in Sources */,
+				8257974E2154C2A6006BF555 /* VRCameraView.m in Sources */,
+				825797172154C2A6006BF555 /* VRFouctions.m in Sources */,
+				8257974F2154C2A6006BF555 /* VRCaptureButton.m in Sources */,
+				825797292154C2A6006BF555 /* VRVideoCatcher.m in Sources */,
+				825797342154C2A6006BF555 /* GITransitionViewController.m in Sources */,
+				825797232154C2A6006BF555 /* GITimeline.m in Sources */,
+				825797532154C2A6006BF555 /* AVPlayerItem+GISync.m in Sources */,
+				825797372154C2A6006BF555 /* MDTabBarViewController.m in Sources */,
+				8257973D2154C2A6006BF555 /* GIVideoPickerOverlayView.m in Sources */,
+				825797552154C2A6006BF555 /* NSFileManager+VRPath.m in Sources */,
+				8257973B2154C2A6006BF555 /* GITransitionCollectionViewCell.m in Sources */,
+				825797282154C2A6006BF555 /* GITimelineDataSource.m in Sources */,
+				8257972A2154C2A6006BF555 /* SampleDataFilter.m in Sources */,
+				825797512154C2A6006BF555 /* VRFilterPickerView.m in Sources */,
+				8257973A2154C2A6006BF555 /* GIAudioPickerViewController.m in Sources */,
+				8257972E2154C2A6006BF555 /* GIBasicCompositionBuilder.m in Sources */,
+				8257973E2154C2A6006BF555 /* GIThumbnailView.m in Sources */,
+				8257974B2154C2A6006BF555 /* VRPreviewView.m in Sources */,
+				825797352154C2A6006BF555 /* GISettingsViewController.m in Sources */,
+				825797302154C2A6006BF555 /* VRCameraCatcher.m in Sources */,
 				822C8FB32154C177001BB40F /* AppDelegate.m in Sources */,
+				825797522154C2A6006BF555 /* GITransitionButton.m in Sources */,
+				8257974C2154C2A6006BF555 /* VROverlayView.m in Sources */,
+				825797432154C2A6006BF555 /* GIProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +1045,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETCUTBJJKB;
+				GCC_PREFIX_HEADER = "OBox/OBox-PrefixHeader.pch";
 				INFOPLIST_FILE = OBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +1063,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETCUTBJJKB;
+				GCC_PREFIX_HEADER = "OBox/OBox-PrefixHeader.pch";
 				INFOPLIST_FILE = OBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
